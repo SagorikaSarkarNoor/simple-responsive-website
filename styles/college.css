@@ -19,7 +19,7 @@ img{
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
 }
-@media screen and(max-width:36opx) {
+@media screen and (max-width:576px) {
     .row{
         flex-direction: column;
         height: auto;
@@ -27,4 +27,10 @@ img{
     .tiger{
         grid-template-columns: 1fr;
     }
+}
+/*medium screen*/
+@media screen and (min-width:576px) and (max-width:992px){
+       .row{
+        flex-direction: column;
+        height: auto; 
 }
